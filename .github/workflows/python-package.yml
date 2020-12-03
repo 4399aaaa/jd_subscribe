@@ -37,6 +37,6 @@ jobs:
               PLANT1 : ${{ secrets.PLANT1 }}
               FRUIT1 : ${{ secrets.FRUIT1 }}
               PET1 : ${{ secrets.PET1 }}
-              DREAM_FACTORY1: ${{ DREAM_FACTORY1 }}
-              JD_FACTORY1: ${{ JD_FACTORY1 }}
+              DREAM_FACTORY1: ${{ secrets.DREAM_FACTORY1 }}
+              JD_FACTORY1: ${{ secrets.JD_FACTORY1 }}
           run: python3 main.py
