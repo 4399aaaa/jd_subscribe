@@ -59,7 +59,7 @@ dream_factory_code = os.environ['DREAM_FACTORY']
 dream_factory_code_num = int(dream_factory_code.count('&'))+1
 print("你提供了%d个京喜工厂互助码" % dream_factory_code_num)
 list4 = dream_factory_code.split("&")
- if __name__ == "__main__":
+if __name__ == "__main__":
     for i in range(fruit_code.count('&')+1):
         jd_subscribe(list1[i],list2[i],list3[i],list4[i])
 
