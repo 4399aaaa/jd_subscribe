@@ -34,9 +34,8 @@ jobs:
         - name: '提交数据'
           env: 
               PLUS_KEY: ${{ secrets.PLUS_KEY }}
-              PLANT1 : ${{ secrets.PLANT1 }}
-              FRUIT1 : ${{ secrets.FRUIT1 }}
-              PET1 : ${{ secrets.PET1 }}
-              DREAM_FACTORY1: ${{ secrets.DREAM_FACTORY1 }}
-              JD_FACTORY1: ${{ secrets.JD_FACTORY1 }}
+              PLANT1 : ${{ secrets.PLANT }}
+              FRUIT1 : ${{ secrets.FRUIT }}
+              PET1 : ${{ secrets.PET }}
+              DREAM_FACTORY1: ${{ secrets.DREAM_FACTORY }}
           run: python3 main.py
