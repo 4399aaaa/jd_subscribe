@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
 token=os.environ['PLUS_KEY']
-def jd_subscribe(plant_code,fruit_code,pet_code,dream_factory_code,jd_factory_code):
+def jd_subscribe(plant_code,fruit_code,pet_code,dream_factory_code):
     try:
         # 模拟浏览器打开网站
         chrome_options = Options()
